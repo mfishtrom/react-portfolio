@@ -36,3 +36,537 @@
     transform: rotate(360deg);
   }
 }
+/* header */
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    z-index: 100;
+    padding-bottom: 10px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    /* padding-bottom: 5%; */
+}
+
+.logo{
+    max-width: 100px;
+    /* margin: 5px; */
+    padding-bottom: 0%;
+}
+
+/* menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    --height: 40px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+}
+
+li, a {
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+    transition: ease-in 0.3s;
+    scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link1, li:nth-of-type(2) {
+    background-color: black;
+    color: hsl(0, 75%, 90%);
+}
+
+.link1:hover, li:nth-of-type(2):hover{
+    background-color: hsl(0, 50%, 75%);
+    color: black;
+}
+
+.link2, li:nth-of-type(3){
+    background-color: black;
+    color: hsl(60deg 75% 90%);
+}
+
+.link2:hover, li:nth-of-type(3):hover{
+    background-color: hsl(60deg 50% 75%);
+    color: black;
+}
+
+.link3,li:nth-of-type(4){
+    background-color: black;
+    color: hsl(120deg 75% 90%);
+}
+
+.link3:hover,li:nth-of-type(4):hover{
+    background-color: hsl(120deg 50% 75%);
+    color: black;
+}
+
+.link4,li:nth-of-type(5){
+    background-color: black;
+    color: hsl(180deg 75% 90%);
+}
+
+.link4:hover,li:nth-of-type(5):hover{
+    background-color: hsl(180deg 50% 75%);
+    color: black;
+}
+
+.link5,li:nth-of-type(6){
+    background-color: black;
+    color: hsl(240deg 75% 90%);
+}
+
+.link5:hover,li:nth-of-type(6):hover{
+    background-color: hsl(240deg 50% 75%);
+    color: black;
+}
+
+.link6,li:nth-of-type(7){
+    background-color: black;
+    color: hsl(300deg 75% 90%);
+}
+
+.link6:hover,li:nth-of-type(7):hover{
+    background-color: hsl(300deg 50% 75%);
+    color: black;
+}
+
+/* body */
+body{
+    margin-top: 200px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    overflow-y: auto;
+}
+
+h1{
+  font-family: 'Libre Baskerville', serif;
+}
+
+.section-header{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    overflow-y: visible;
+    scroll-padding: 100px;
+}
+
+.caption{
+  font-size: 12px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.description-link{
+  font-family:'Libre Baskerville', serif;
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 0.01em;
+}
+
+.update-text{
+  font-size: 10px;
+  padding: 1px;
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.carousel{
+  display: contents;
+}
+
+.carousel-item{
+  max-width: 200px;
+  background-color: white;
+}
+
+.carousel-item:hover{
+  max-width: 200px;
+  background-color: white;
+}
+
+.about{
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    /* margin: 0; */
+    margin: auto;
+    width: 75%;
+    padding-bottom: 100px;
+    line-height: 1.5em;
+}
+
+.title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    padding-right: 25px;
+    width: 75%;}
+
+/* Layout - Reasearch */
+.healonward{
+  text-decoration: underline;
+  padding: 0.1em;
+}
+
+/* Graphic Design */
+.column{
+    float: left;
+}
+
+.column2{
+  float: left;
+  width: 25%;
+}
+
+.left{
+    padding-left: 5%;
+    width: 20%;
+    padding-top: 20px;
+}
+
+.right{
+    padding-right: 5%;
+    width: 20%;
+}
+
+.center{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    width: 45%;
+}
+
+.left-third{
+  padding-left: 12.5%;
+  width: 20%;
+  padding-right: 7.5%;
+}
+
+.twothirds{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 55%;
+}
+
+.onethird{
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 25%;
+}
+
+.center-right{
+    padding-right: 12.5%;
+    width: 40%;
+}
+
+.left-image{
+    float: right;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.right-image{
+    float: left;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-padding{
+    padding-top: 20px;
+}
+
+/* Web Development */
+
+h3{
+    font-size: large;
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: normal;
+    margin: auto;
+}
+
+.margin-bottom{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.homepage{
+  border: .25rem solid;
+  border-color: black;
+  margin-bottom: 50px;
+}
+
+/* Project Management */
+
+iframe{
+    width: 300px;
+    height: 65vh;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.playable-preview{
+  width: 75%;
+}
+
+.mobile{
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 400px;
+}
+
+.research{
+    margin-top: 5%;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.research-topic{
+  text-align: left;
+  font-family: 'Libre Baskerville', serif;
+  line-height: 1.5em;
+  padding-bottom: 25px;
+}
+
+.smallerimg{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Web Design */
+.wd-page{
+    margin-bottom: 80%;
+}
+
+/* footer */
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(to right, hsl(0, 75%, 90%), hsl(50deg 50% 75%), hsl(125deg 50% 75%), hsl(225deg 50% 75%), hsl(300deg 50% 75%));
+}
+
+footer, a{
+    color: black;
+    text-decoration: none;
+}
+
+/* mobile formatting */
+
+@media screen and (max-width: 1000px) {
+    .title{
+        font-size: 18px;
+    }
+
+    .about{
+        font-size: 12px;
+        padding-right: 10%;
+        padding-left: 10%;
+        left: 0%;
+        transform: translate(0%);
+        z-index: -1;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25%;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        --height: 30px;
+        line-height: 30px;
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Libre Baskerville', serif;
+    }
+
+    li {
+        display: block;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    li:nth-of-type(1){
+        margin-left: auto;
+        align-items: center;
+    }
+
+    body{
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3{
+        font-size: medium;
+        text-align: center;
+    }
+
+    iframe{
+        width: 100px;
+        height: auto;
+
+    }
+
+    .research{
+        margin-top: 15%;
+        width: 75%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .left{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        width: 75%;
+    }
+
+    .right{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        width: 75%;
+    }
+
+    .center{
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        width: 75%;
+    }
+
+    .left-third{
+      display: none;
+    }
+
+    .wd-page{
+        margin-bottom: 120%;
+    }
+
+    .topnav li{display: none;}
+    .topnav li.icon {
+      display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      right: 0;
+      top: 0;
+    }
+
+    .topnav.responsive li {
+      float: none;
+      display: block;
+    }
+
+    .link1:hover, li:nth-of-type(2):hover{
+        color: hsl(0, 50%, 75%);
+        background-color: black;
+    }
+
+    .link2:hover, li:nth-of-type(3):hover{
+        color: hsl(60deg 50% 75%);
+        background-color: black;
+    }
+
+    .link3:hover,li:nth-of-type(4):hover{
+        color: hsl(120deg 50% 75%);
+        background-color: black;
+    }
+
+    .link4:hover,li:nth-of-type(5):hover{
+        color: hsl(180deg 50% 75%);
+        background-color: black;
+    }
+
+    .link5:hover,li:nth-of-type(6):hover{
+        color: hsl(240deg 50% 75%);
+        background-color: black;
+    }
+
+    .link6:hover,li:nth-of-type(7):hover{
+        color: hsl(300deg 50% 75%);
+        background-color: black;
+    }
+
+    .homepage{
+      margin-bottom: 20px;
+      width: 75%;
+    }
+
+    .column{
+        float: left;
+        align-items: center;
+    }
+
+    .column2{
+      padding: 10px;
+      width: 100%;
+    }
+
+    .twothirds{
+      width: 90%;
+    }
+
+    .onethird{
+      width: 90%;
+      margin-bottom: 30px;
+    }
+
+    .site{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .caption{
+      text-align: center;
+    }
+
+    .playable-preview{
+      max-width: 250px;
+      padding-bottom: 10px;
+    }
+  }
